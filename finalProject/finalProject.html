@@ -21,8 +21,79 @@
         <label for="weeklygoal">Weekly goal:</label>
         <input type="text" id="weeklygoal" name="weeklygoal">
 
-        <input type="submit" id="submit" value="submit">
+        <br>
+
+        <table class="mealplan">
+            
+            <tr>
+                <th>Meals/Days</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            
+            <tr>
+                <td>Breakfast</td>
+                <td><input type="text" name="mondaybreakfast"></td>
+                <td><input type="text" name="tuesdaybreakfast"></td>
+                <td><input type="text" name="wednesdaybreakfast"></td>
+                <td><input type="text" name="thursdaybreakfast"></td>
+                <td><input type="text" name="fridaybreakfast"></td>
+                <td><input type="text" name="saturdaybreakfast"></td>
+                <td><input type="text" name="sundaybreakfast"></td>
+            </tr>
+
+            <tr>
+                <td>Snack One</td>
+                <td><input type="text" name="mondaysnackone"></td>
+                <td><input type="text" name="tuesdaysnackone"></td>
+                <td><input type="text" name="wednesdaysnackone"></td>
+                <td><input type="text" name="thursdaysnackone"></td>
+                <td><input type="text" name="fridaysnackone"></td>
+                <td><input type="text" name="saturdaysnackone"></td>
+                <td><input type="text" name="sundaysnackone"></td>
+            </tr>
+
+            <tr>
+                <td>Lunch</td>
+                <td><input type="text" name="mondaylunch"></td>
+                <td><input type="text" name="tuesdaylunch"></td>
+                <td><input type="text" name="wednesdaylunch"></td>
+                <td><input type="text" name="thursdaylunch"></td>
+                <td><input type="text" name="fridaylunch"></td>
+                <td><input type="text" name="saturdaylunch"></td>
+                <td><input type="text" name="sundaylunch"></td>
+            </tr>
+
+            <tr>
+                <td>Snack Two</td>
+                <td><input type="text" name="mondaysnacktwo"></td>
+                <td><input type="text" name="tuesdaysnacktwo"></td>
+                <td><input type="text" name="wednesdaysnacktwo"></td>
+                <td><input type="text" name="thursdaysnacktwo"></td>
+                <td><input type="text" name="fridaysnacktwo"></td>
+                <td><input type="text" name="saturdaysnacktwo"></td>
+                <td><input type="text" name="sundaysnacktwo"></td>
+            </tr>
+
+            <tr>
+                <td>Dinner</td>
+                <td><input type="text" name="mondaydinner"></td>
+                <td><input type="text" name="tuesdaydinner"></td>
+                <td><input type="text" name="wednesdaydinner"></td>
+                <td><input type="text" name="thursdaydinner"></td>
+                <td><input type="text" name="fridaydinner"></td>
+                <td><input type="text" name="saturdaydinner"></td>
+                <td><input type="text" name="sundaydinner"></td>
+            </tr>
+        </table>
+        <button onclick="window.print()">Print Meal Plan</button>
+        <input type="reset" id="reset" value="Reset">
+        <input type="submit" id="submit" value="Submit">
     </form>
-    <!--Input from user in a grid for meals seems to be best/most common way of doing things- look into-->
 </body>
 </html>
